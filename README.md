@@ -22,9 +22,9 @@
 ```
 Welcome to my coding journey! This repository is where I document my learning process, projects, and code snippets as I explore different programming languages, frameworks, and concepts.  
 
-## 📌 What You'll Find Here  
-- 📂 Code snippets & exercises  
-- 📚 Notes on programming concepts  
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Card%20Index%20Dividers.webp" alt="Card Index Dividers" width="25" height="25" /> What You'll Find Here  
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/File%20Folder.webp" alt="File Folder" width="25" height="25" /> Code snippets & exercises  
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Books.webp" alt="Books" width="25" height="25" /> Notes on programming concepts  
 - 🛠️ Small projects & experiments  
 - 🎯 Challenges & problem-solving  
 
