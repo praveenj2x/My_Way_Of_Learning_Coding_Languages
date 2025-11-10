@@ -1,0 +1,48 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.hero {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 2rem;
+  color: #555;
+  max-width: 700px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  padding: 24px;
+}
+
+.img {
+  width: 40%;
+}
+
+.img img {
+  width: 50%;
+  height: 50%;
+  border-radius: 12px;
+  object-fit: cover;
+  padding-left: 4%;
+}
+
+.note {
+  width: 60%;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+}
