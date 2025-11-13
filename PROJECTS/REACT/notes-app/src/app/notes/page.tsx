@@ -5,18 +5,12 @@ import NoteViewer from "@/components/noteView";
 import Sidebar from "@/components/sidebar";
 import { loadNotes, saveNotes } from "@/lib/storage";
 import { Note } from "@/lib/types";
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function note() {
-  const [notes, setNotes] = useState<Note[]>([]);
+  const [notes, setNotes] = useState<Note[]>(() => loadNotes());
   const [activeNote, setActiveNote] = useState<Note | null>(null);
-  const [isEditing, setIsEditing] = useState<boolean>(false);
-  
-useEffect(() => {
-    loadNotes();
-    const savedNotes = loadNotes();
-    setNotes(savedNotes);
-  }, []);
+  const [isEditing, setIsEditing] = useState(false);
 
   useEffect(() => {
     saveNotes(notes);
@@ -28,7 +22,6 @@ useEffect(() => {
       title: "Untitled Note",
       content: "",
       createdAt: Date.now(),
-      updatedAt: Date.now(),
     };
     setNotes([newNote, ...notes]);
     setActiveNote(newNote);

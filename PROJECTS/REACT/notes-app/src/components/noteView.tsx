@@ -22,7 +22,7 @@ export default function NoteViewer({ note, onEdit }: NoteViewerProps) {
       <CardHeader>
         <CardTitle>{note.title}</CardTitle>
         <p className="text-sm text-muted-foreground">
-          {formatDate(note.updatedAt)}
+          {formatDate(note.createdAt)}
         </p>
       </CardHeader>
       <ScrollArea className="h-[calc(108vh-350px)]">
